@@ -57,7 +57,7 @@ class ToDoListViewController: UITableViewController {
             self.tableView.reloadData()
             
         }
-        
+        // add a button
         alert.addTextField { (alertTextfield) in
                 alertTextfield.placeholder = "Create new item"
                 textField = alertTextfield
